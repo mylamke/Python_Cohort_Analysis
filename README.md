@@ -11,7 +11,7 @@ Dataset KPMG.xlsx includes one table containing transaction information of custo
 - There are many missing values (in online_order, brand,.. columns) but it does not affect the cohort analysis result => temporarily ignore
 - Values in 'transaction_id' column are unique => there are no duplicate records in the dataset
 - We need to filter order_status = ‘Approved’ before cohort analysis
-   
+    
 
 ### 3. Method: Cohort analysis
 #### Cohort analysis definition
